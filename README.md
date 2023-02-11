@@ -43,4 +43,6 @@ In this section, four models were built. The first was the base model; a simple 
 ## Evaluation
 The final model had an accuracy score of 80% and f1 score of 78%. Both surpassed previously set success metrics of an accuracy score and f1 score of 75%.
 ## Recommendations and Future Steps
-
+* The public health sector should carry out more research on how people responded to other vaccines because while this model may provide important insight, it may not be as conclusive as a weighted outcome of several different vaccine types.
+* Surveys like the one that led to getting the dataset used in this project are not very effective since they are done on phone. Individuals answer more truthfully in person, because of lack of this, the dataset ended up with a lot missing values.
+* Seeing as to how the model was performing poorly at first continously, in the future, the data preprocessing processes need to be improved.
