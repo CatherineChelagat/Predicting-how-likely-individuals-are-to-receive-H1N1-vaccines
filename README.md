@@ -39,4 +39,8 @@ The dataframe contains 26707 observations and 35 features. The data on the train
 ## Data Preparation
 The data underwent cleaning and preprocessing processes that would ensure it was in the right form for modeling. This was done dealing with missing values by dropping and filling in. The duplicates were also dropped and categorical data was encoded using label encoding. In EDA trends in the distrinution and correlation of the features and the target was established.
 ## Modeling
-In this section, four models were built. The first was the base model; a simple logistic regression model that was fitted on the training set before any feature selection was done.
+In this section, four models were built. The first was the base model; a simple logistic regression model that was fitted on the training set before any feature selection was done. Fitting this model to the test data resulted in a very weak f1 score of 43%, and regardless of the contrasting higher accuracy score, the model was considered a poor performing model. In an attempt to improve our results, feature selection was performed and the most important features used to fit the second model which was KNN. This, however, proved to be performing even worse than the previous one with an f1 score of 36%. For the third model, we built a decision tree that resulted in an f1 score of 36%, still a poor performance. Following the same kind of results after building three models, there was need to do more to improve the outcome. It was at this point that hyperparameter pruning was carried out on the decision tree model and an improvement in the f1 score was seen at 78%.
+## Evaluation
+The final model had an accuracy score of 80% and f1 score of 78%. Both surpassed previously set success metrics of an accuracy score and f1 score of 75%.
+## Recommendations and Future Steps
+
