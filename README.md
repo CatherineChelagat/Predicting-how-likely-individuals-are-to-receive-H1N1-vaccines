@@ -22,7 +22,8 @@ We apply machine learning for this project because it will give the stakeholders
 ### Problem Statement
 Vaccination has become a key public health measure that is used to fight and in most cases curb infectious diseases. Vaccines provide immunization for individuals and having a community participate in the process can further decrease the spread of diseases as a result of the concept of "herd immunity."
 
-The idea is to come up with a classification model that will predict (almost) accurately whether individuals were immunized with H1N1 vacciness and from this determine the next course of action depending on whether people are open or not getting the h1n1 vaccine.
+The goal of this project is to build a model that can predict the response of individuals to a vaccine based on certain features, such as age, sex, health status, and their knowledge on H1N1 vaccine. This information can help healthcare professionals make informed decisions about who should receive the vaccine and how to best manage its administration.
+
 ### Objectives
 Identify which factors affect individuals' response to vaccines
 
